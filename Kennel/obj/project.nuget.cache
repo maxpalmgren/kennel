@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m0kMGaWafJx08lBOSkFyURAnTx7EdIOTLxHQauXhzaLM6aUjvuczbF1ZXQz+pE5kDijub8FbcUTpu9DxqsR80Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maxpa\\source\\repos\\Kennel\\Kennel\\Kennel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maxpa\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\maxpa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

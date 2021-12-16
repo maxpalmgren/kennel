@@ -1,0 +1,16 @@
+C:\Users\maxpa\source\repos\Kennel\Kennel\bin\Debug\netcoreapp3.1\Kennel.exe
+C:\Users\maxpa\source\repos\Kennel\Kennel\bin\Debug\netcoreapp3.1\Kennel.deps.json
+C:\Users\maxpa\source\repos\Kennel\Kennel\bin\Debug\netcoreapp3.1\Kennel.runtimeconfig.json
+C:\Users\maxpa\source\repos\Kennel\Kennel\bin\Debug\netcoreapp3.1\Kennel.runtimeconfig.dev.json
+C:\Users\maxpa\source\repos\Kennel\Kennel\bin\Debug\netcoreapp3.1\Kennel.dll
+C:\Users\maxpa\source\repos\Kennel\Kennel\bin\Debug\netcoreapp3.1\Kennel.pdb
+C:\Users\maxpa\source\repos\Kennel\Kennel\obj\Debug\netcoreapp3.1\Kennel.csprojAssemblyReference.cache
+C:\Users\maxpa\source\repos\Kennel\Kennel\obj\Debug\netcoreapp3.1\Kennel.AssemblyInfoInputs.cache
+C:\Users\maxpa\source\repos\Kennel\Kennel\obj\Debug\netcoreapp3.1\Kennel.AssemblyInfo.cs
+C:\Users\maxpa\source\repos\Kennel\Kennel\obj\Debug\netcoreapp3.1\Kennel.csproj.CoreCompileInputs.cache
+C:\Users\maxpa\source\repos\Kennel\Kennel\obj\Debug\netcoreapp3.1\Kennel.dll
+C:\Users\maxpa\source\repos\Kennel\Kennel\obj\Debug\netcoreapp3.1\Kennel.pdb
+C:\Users\maxpa\source\repos\Kennel\Kennel\obj\Debug\netcoreapp3.1\Kennel.genruntimeconfig.cache
+C:\Users\maxpa\source\repos\Kennel\Kennel\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\maxpa\source\repos\Kennel\Kennel\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\maxpa\source\repos\Kennel\Kennel\obj\Debug\netcoreapp3.1\Kennel.csproj.CopyComplete

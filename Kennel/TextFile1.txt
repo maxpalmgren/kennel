@@ -1,0 +1,20 @@
+﻿CustomerClass : IPerson
+	CustomerId
+	Name
+	List<string> OwnerTo
+		CreateCustomer
+		ListCustomer
+		PickupAnimal
+		LeaveAnimal()
+
+
+AnimalClass : IAnimal
+	AnimalId
+	AnimalName
+	OwnerId
+	AnimalType
+
+		CreateAnimal
+		ListAnimalsHere
+		AnimalSubmited
+		AnimalPickedUp
