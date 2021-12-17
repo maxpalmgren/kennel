@@ -98,7 +98,7 @@ namespace Kennel.Manager
             }
             Console.WriteLine("Select the animal you want to clawcut");
             int animal = Convert.ToInt32(Console.ReadLine());
-            ExtraServices.AddHaircut(animal);
+            ExtraServices.AddClawcut(animal);
             Console.WriteLine($"Clawcut added to {Db.AnimalList[animal].Name}");
             Console.WriteLine("Press Enter to go back to Main Menu");
             Console.ReadLine();
