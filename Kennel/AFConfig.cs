@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using Kennel.Classes;
 using Kennel.Data;
+using Kennel.ExtraService;
 using Kennel.Interface;
 using Kennel.Manager;
 using Kennel.MOCKDATA;
@@ -29,9 +30,11 @@ namespace Kennel
             builder.RegisterType<CustomerManager>().As<ICustomerManager>();
             builder.RegisterType<AnimalManager>().As<IAnimalManager>();
             builder.RegisterType<KennelManager>().As<IKennelManager>();
-            builder.RegisterType<ExtraServices>().As<IExtraServices>();
 
-            //Delegate
+            // Extra Services
+            builder.RegisterType<ExtraHaircut>().As<IExtraHaircut>();
+            builder.RegisterType<ExtraClawcut>().As<IExtraClawcut>();
+
 
             return builder.Build();
         }

@@ -8,7 +8,5 @@ namespace Kennel.Manager
 
         void DropOffAnimal();
         void PickUpAnimal();
-        void AddHaircut();
-        void AddClawcut();
     }
 }

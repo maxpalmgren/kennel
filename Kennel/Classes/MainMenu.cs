@@ -5,6 +5,7 @@ using Kennel.Interface;
 using Kennel.Classes;
 using Kennel.Data;
 using Kennel.Manager;
+using Kennel.ExtraService;
 
 namespace Kennel.Classes
 {
@@ -14,13 +15,17 @@ namespace Kennel.Classes
         public ICustomerManager CustomerManager { get; set; }
         public IAnimalManager AnimalManager { get; set; }
         public IKennelManager KennelManager { get; set; }
+        public IExtraHaircut ExtraHaircut { get; set; }
+        public IExtraClawcut ExtraClawcut { get; set; }
 
-        public MainMenu(ICustomerManager customerManager,IAnimalManager animalManager, IKennelManager dropOffManager)
+        public MainMenu(ICustomerManager customerManager, IAnimalManager animalManager, IKennelManager dropOffManager, IExtraHaircut extraHaircut, IExtraClawcut extraClawcut)
         {
             IsRunning = true;
             CustomerManager = customerManager;
             AnimalManager = animalManager;
             KennelManager = dropOffManager;
+            ExtraHaircut = extraHaircut;
+            ExtraClawcut = extraClawcut;
         }
 
         public void Menu()
@@ -52,7 +57,7 @@ namespace Kennel.Classes
                     KennelManager.DropOffAnimal();
                     break;
                 case "2":
-                    KennelManager.PickUpAnimal(); //TODO: lägga till kvitto
+                    KennelManager.PickUpAnimal();
                     break;
                 case "3":
                     CustomerManager.CreatePerson();
@@ -70,10 +75,10 @@ namespace Kennel.Classes
                     AnimalManager.ListCheckedInAnimalsAndOwners();
                     break;
                 case "8":
-                    KennelManager.AddHaircut();
+                    ExtraHaircut.AddExtraService();
                     break;
                 case "9":
-                    KennelManager.AddClawcut();
+                    ExtraClawcut.AddExtraService();
                     break;
                 default:
                     Console.Clear();

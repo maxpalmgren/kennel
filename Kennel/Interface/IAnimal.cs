@@ -1,4 +1,6 @@
-﻿using Kennel.Interface;
+﻿using Kennel.ExtraService;
+using Kennel.Interface;
+using System.Collections.Generic;
 
 namespace Kennel.Classes
 {
@@ -8,7 +10,6 @@ namespace Kennel.Classes
         public IPerson Owner { get; set; }
         public bool IsHere { get; set; }
         public double Price { get; set; }
-        public bool GotHaircut { get; set; }
-        public bool GotClawcut { get; set; }
+        public List<IExtraServices> ExtraServices { get; set; }
     }
 }
